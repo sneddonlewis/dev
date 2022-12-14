@@ -8,6 +8,6 @@
     - node
     - zsh
   tasks:
-  - include_task: ansible-tasks/zsh.yml
-  - include_task: ansible-tasks/node.yml
-  - include_task: ansible-tasks/nvim.yml
+  - include: ansible-tasks/zsh.yml
+  - include: ansible-tasks/node.yml
+  - include: ansible-tasks/nvim.yml
